@@ -1,0 +1,180 @@
+html, body {
+    margin:0;
+    height:100%;
+}
+
+.first{
+    background-image: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    height:99%;
+    display:flex;
+    line-height:2em;
+}
+
+#firstTitle{
+    text-align: left;
+    color: midnightblue;
+    font-family: 'Pacifico', cursive;
+    position:absolute;
+    font-size:9vh;
+    margin-top:40vh;
+    margin-left:20vh;
+}
+
+#firstParagraph{
+    text-align: left;
+    color:white;
+    font-family: 'Pacifico', cursive;
+    position:absolute;
+    font-size:7vh;
+    margin-top:50vh;
+    margin-left:20vh;
+}
+
+
+hr{
+    font-size:0;
+    color:rgb(83, 52, 131);
+    border: 5px solid #628E90;
+}
+
+
+.second{
+    text-align:center;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7E2D6;
+}
+
+#title2{
+    color: midnightblue;
+    text-align:center;
+}
+  
+#idImg{
+    border-radius:100%;
+    width:200px;
+    height:200px;
+    max-width:100%;
+}
+
+#p2{
+    font-size: 20px;
+}
+
+#dot{
+    color:gray;
+    text-align: center;
+    margin:0;
+    font-size:50px;
+}
+
+
+.third{
+    font-family: 'Roboto', sans-serif;
+    background-color: #C4DDFF;
+    padding:50px;
+}
+
+#title3{
+    color: midnightblue;
+    text-align:center;
+    padding:20px;
+    margin:0;
+}
+
+#h3_hard, #certif{
+    margin:0;
+    padding-left:115px;
+    color: #CD5555;
+}
+
+#ab1, #ab3{
+    width:100px;
+    height:100px;
+    padding:10px;
+    
+    
+    flex-basis: 70%;
+    order: 2;
+    float:left;
+
+    max-width:100%;
+}
+
+#p3{
+   line-height: 1em; 
+}
+
+.third_2{
+    text-align: right;
+}
+
+#h3_soft{
+    margin:0;
+    padding-right:115px;
+    color:#CD5555;
+}
+
+#ab2{
+    width:100px;
+    height:100px;
+    padding:8px;
+    
+    
+    flex-basis: 70%;
+    order: 2;
+    float:right;
+
+    max-width:100%;
+}
+
+
+
+.fourth{
+    background-color: #FDEEDC;
+    padding:30px;
+}
+
+#dot1{
+    color: gray;
+    text-align: center;
+    margin:0;
+    font-size:50px;
+    /*padding:10px;*/
+}
+
+#title4{
+    color: midnightblue;
+    text-align:center;
+    font-size:40px;
+    padding:10px;
+    margin:0;
+}
+
+button {
+  background-color: #13829B;
+  border: 3px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  margin:auto;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #13829B;
+  border-radius: 12px;
+  }
+
+
+.footer{
+    padding:30px;
+    text-align:center;
+    background-color:#B9F8D3;
+}
+
+
